@@ -1,3 +1,50 @@
 * {
-    outline: dashed rgb(49, 49, 49)
+    /* outline: dashed rgb(49, 49, 49); */
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px; 
+}
+
+nav {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    padding: 35px;
+}
+
+main {
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+img {
+    height: 325px;
+    width: auto;
+    padding: 20px;
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
 }
