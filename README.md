@@ -1,4 +1,4 @@
-# LAB - 2
+# LAB - 02
 
 ## About Me, with a guessing game
 
