@@ -41,10 +41,6 @@ if (dominantHand === 'no' || dominantHand === 'n') {
   alert('BOOOO, wrong!');
 }
 
-let userPoints = 0;
-
 alert('Enough with the questions about me. How about we play a number guessing game!');
 
-
-
-alert('That was the last question, ' + userName + '. ' + 'You sorta did a great job. Have a nice day!')
+alert('That was the last question, ' + userName + '. ' + 'You sorta did a great job. Have a nice day!');
