@@ -7,34 +7,39 @@ console.log('This is the user full name', userName);
 alert('Welcome to my site, ' + userName + '. ' + 'I hope you learn a lot about me today.');
 
 let favoriteSport = prompt('Is my favorite sport golf?');
-if (favoriteSport === 'yes' || favoriteSport === 'y') {
+let lowerCaseSport = favoriteSport.toLowerCase();
+if (lowerCaseSport === 'yes' || lowerCaseSport === 'y') {
   alert('DING DING DING, correct!');
 } else {
   alert('BOOOO, wrong!');
 }
 
 let favoriteFood = prompt('Is my favorite food tuna fish in a can?');
-if (favoriteFood === 'no' || favoriteFood === 'n') {
+let lowerCaseFood = favoriteFood.toLowerCase();
+if (lowerCaseFood === 'no' || lowerCaseFood === 'n') {
   alert('DING DING DING, correct!');
 } else {
   alert('BOOOO, wrong!');
 }
 
 let stateBorn = prompt('Was I born in New York State?');
-if (stateBorn === 'yes' || stateBorn === 'y') {
+let lowerCaseBorn = stateBorn.toLowerCase();
+if (lowerCaseBorn === 'yes' || lowerCaseBorn === 'y') {
   alert('DING DING DING, correct!');
 } else {
   alert('BOOOO, wrong!');
 }
 
 let favoriteMusic = prompt('Is my favorite type of music Reggae?');
-if (favoriteMusic === 'yes' || favoriteMusic === 'y') {
+let lowerCaseMusic = favoriteMusic.toLowerCase();
+if (lowerCaseMusic === 'yes' || lowerCaseMusic === 'y') {
   alert('DING DING DING, correct!');
 } else {
   alert('BOOOO, wrong!');
 }
 
 let dominantHand = prompt('Am and right handed?');
+let lowerCaseHand = dominantHand.toLowerCase();
 if (dominantHand === 'no' || dominantHand === 'n') {
   alert('DING DING DING, correct!');
 } else {
