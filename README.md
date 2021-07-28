@@ -2,7 +2,7 @@
 
 ## About Me, with a guessing game
 
-I made this About Me page so you can take a quiz and learn more....About Me! 
+I made this About Me page so you can take a quiz and learn more....About Me! I also added a list of some of my favorite things.
 
 ### Author: Ian Whitmore
 
