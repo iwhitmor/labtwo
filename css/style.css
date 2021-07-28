@@ -43,14 +43,10 @@ img {
 
 .education {
     padding: 25px;
-    list-style-position: inside;
-    list-style-type: circle;
 }
 
 .jobhistory {
     padding: 25px;
-    list-style-position: inside;
-    list-style-type: circle;
 }
 
 .quiz {
