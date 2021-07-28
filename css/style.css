@@ -1,5 +1,5 @@
 * {
-    /* outline: dashed rgb(49, 49, 49); */
+    /* outline: 1px dashed rgb(49, 49, 49); */
 }
 
 header {
@@ -35,9 +35,9 @@ main {
 }
 
 img {
-    height: 200px;
+    height: 400px;
     width: auto;
-    padding: 50px;
+    padding: 25px;
 }
 
 footer {
