@@ -1,45 +1,46 @@
 'use strict';
 console.log('app2.js file is connected');
 
-// let favoriteSport = prompt('Is my favorite sport golf?');
-// let lowerCaseSport = favoriteSport.toLowerCase();
-// if (lowerCaseSport === 'yes' || lowerCaseSport === 'y') {
-//   alert('DING DING DING, correct!');
-// } else {
-//   alert('BOOOO, wrong!');
-// }
+let favoriteSport = prompt('Is my favorite sport golf?');
+let lowerCaseSport = favoriteSport.toLowerCase();
+if (lowerCaseSport === 'yes' || lowerCaseSport === 'y') {
+  alert('DING DING DING, correct!');
+} else {
+  alert('BOOOO, wrong!');
+}
 
-// let favoriteFood = prompt('Is my favorite food tuna fish in a can?');
-// let lowerCaseFood = favoriteFood.toLowerCase();
-// if (lowerCaseFood === 'no' || lowerCaseFood === 'n') {
-//   alert('DING DING DING, correct!');
-// } else {
-//   alert('BOOOO, wrong!');
-// }
+let favoriteFood = prompt('Is my favorite food tuna fish in a can?');
+let lowerCaseFood = favoriteFood.toLowerCase();
+if (lowerCaseFood === 'no' || lowerCaseFood === 'n') {
+  alert('DING DING DING, correct!');
+} else {
+  alert('BOOOO, wrong!');
+} 
+console.log('Answer to favorite food', lowerCaseFood)
 
-// let stateBorn = prompt('Was I born in New York State?');
-// let lowerCaseBorn = stateBorn.toLowerCase();
-// if (lowerCaseBorn === 'yes' || lowerCaseBorn === 'y') {
-//   alert('DING DING DING, correct!');
-// } else {
-//   alert('BOOOO, wrong!');
-// }
+let stateBorn = prompt('Was I born in New York State?');
+let lowerCaseBorn = stateBorn.toLowerCase();
+if (lowerCaseBorn === 'yes' || lowerCaseBorn === 'y') {
+  alert('DING DING DING, correct!');
+} else {
+  alert('BOOOO, wrong!');
+}
 
-// let favoriteMusic = prompt('Is my favorite type of music Reggae?');
-// let lowerCaseMusic = favoriteMusic.toLowerCase();
-// if (lowerCaseMusic === 'yes' || lowerCaseMusic === 'y') {
-//   alert('DING DING DING, correct!');
-// } else {
-//   alert('BOOOO, wrong!');
-// }
+let favoriteMusic = prompt('Is my favorite type of music Reggae?');
+let lowerCaseMusic = favoriteMusic.toLowerCase();
+if (lowerCaseMusic === 'yes' || lowerCaseMusic === 'y') {
+  alert('DING DING DING, correct!');
+} else {
+  alert('BOOOO, wrong!');
+}
 
-// let dominantHand = prompt('Am and right handed?');
-// let lowerCaseHand = dominantHand.toLowerCase();
-// if (lowerCaseHand === 'no' || lowerCaseHand === 'n') {
-//   alert('DING DING DING, correct!');
-// } else {
-//   alert('BOOOO, wrong!');
-// }
+let dominantHand = prompt('Am and right handed?');
+let lowerCaseHand = dominantHand.toLowerCase();
+if (lowerCaseHand === 'no' || lowerCaseHand === 'n') {
+  alert('DING DING DING, correct!');
+} else {
+  alert('BOOOO, wrong!');
+}
 
 alert('Ok, enough questions about me. Lets play a number guessing game!');
 
@@ -69,4 +70,4 @@ while(attempts > 0){
   attempts = attempts - 1;
 }
 
-alert('Sorry, you didnt get it right. The correct answer was 11');
+alert('Your all done. The correct answer was 11');
