@@ -4,7 +4,7 @@
 
 header {
     text-align: center;
-    background-color: lightgray;
+    background-color: rgb(129, 129, 129);
     margin-bottom: 25px;
     font-family: 'Roboto', sans-serif;
     border-radius: 25px;
@@ -44,7 +44,7 @@ footer {
     clear: both;
     text-align: center;;
     padding: 20px;
-    background-color: lightgray;
+    background-color: rgb(129, 129, 129);
     border-radius: 25px;
     font-family: 'Roboto', sans-serif;
     margin-top: 25px;
