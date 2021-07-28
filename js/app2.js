@@ -42,11 +42,11 @@ console.log('app2.js file is connected');
 // }
 
 alert('Ok, enough questions about me. Lets play a number guessing game!');
-// Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
-let attempts = 4;
+
+let attempts = 6;
 let actualNumber = 11;
 
-while(attempts >= 0){
+while(attempts > 0){
 
   let userNumber = prompt('Can you guess what number I am thinking of between 1 and 100? You only have 6 guesses to guess correctly.', '<number goes here>');
   console.log(typeof(userNumber));
@@ -55,35 +55,18 @@ while(attempts >= 0){
   if(!userNumber){
     break;
   }
-  if (userNumber === actualNumber) {
-    alert('you got it right');
+
+  if(userNumber > actualNumber){
+    alert('That guess was too high. Try again!');
+  } else if (userNumber < actualNumber){
+    alert('That guess was too low. Try again!');
+  } else {
+    alert('You got it right. Nice job!');
     console.log('did this work? they guessed right.');
     break;
-    //need set the attempts to 0;
   }
-  //if it was to high 
-  if(userNumber > actualNumber){
-    //alert too high try again
-    //continue;
-  }
-  //if it was to low
-  // if(userNumber < actualNumber){
-  //alert too low try again
-  //continue;
-  // }
-
 
   attempts = attempts - 1;
-
-  //decrement the attempts
-
 }
 
-
-
-
-
-
-
-
-// alert('That was the last question, ' + userName + '. ' + 'You sorta did a great job. Have a nice day!');
+alert('Sorry, you didnt get it right. The correct answer was 11');
