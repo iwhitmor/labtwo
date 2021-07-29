@@ -15,7 +15,6 @@ if (lowerCaseFood === 'no' || lowerCaseFood === 'n') {
   alert('DING DING DING, correct!');
 } else {
   alert('BOOOO, wrong!');
-// eslint-disable-next-line no-trailing-spaces
 } 
 console.log('Answer to favorite food', lowerCaseFood);
 
