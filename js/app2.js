@@ -100,17 +100,18 @@ console.log('app2.js file is connected');
 // alert('Just a few more questions about food. Here we go!');
 
 let favoriteFood = ['wings', 'pizza', 'burgers', 'meatloaf', 'sushi', 'BBQ'];
-console.log(favoriteFood);
+console.log(favoriteFood.length);
 
 let attempts = 0;
 let correctAnswer = 0;
 
-while (attempts !== 6) {
+while (attempts !== 6){
   let userAnswer = prompt('What are my favorite foods? (There are 6, so you will have 6 guesses).');
   let userAnswerTrimmedtoLowerCase = userAnswer.toLowerCase().trim();
 
   if (favoriteFood.indexOf(userAnswerTrimmedtoLowerCase) >= 0) {
     alert('Yes! ' + userAnswerTrimmedtoLowerCase + ' is one of my favorite foods!');
+    correctAnswer ++;
   } else {
     alert('That isnt my favorite, but I sometimes like that too!');
   }
@@ -120,6 +121,5 @@ while (attempts !== 6) {
 }
 
 alert('All of my favorite foods are: ' + favoriteFood.join(', '));
-alert('You answered ' + correctAnswer + ' out of 6 correctly');
+alert('You answered ' + correctAnswer + ' out of 6 correctly.');
 alert('Thanks for playing along. Have a great day!');
-
