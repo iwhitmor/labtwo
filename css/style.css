@@ -23,10 +23,6 @@ nav {
     font-size: 15px;
     text-align: center;
     text-decoration: none;
-    border-top: lightgray solid;
-    border-bottom: lightgray solid;
-    border-right: lightgray solid;
-    border-left: lightgray solid;
     background: lightgray;
     border-radius: 10px;
 }
