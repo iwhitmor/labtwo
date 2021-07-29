@@ -1,3 +1,4 @@
+/* eslint-disable no-trailing-spaces */
 'use strict';
 console.log('app2.js file is connected');
 
@@ -8,6 +9,7 @@ if (lowerCaseSport === 'yes' || lowerCaseSport === 'y') {
 } else {
   alert('BOOOO, wrong!');
 }
+console.log('Answer to favorite sport', lowerCaseSport);
 
 let favoriteFood = prompt('Is my favorite food tuna fish in a can?');
 let lowerCaseFood = favoriteFood.toLowerCase();
@@ -25,6 +27,7 @@ if (lowerCaseBorn === 'yes' || lowerCaseBorn === 'y') {
 } else {
   alert('BOOOO, wrong!');
 }
+console.log('Answer to state born', lowerCaseBorn);
 
 let favoriteMusic = prompt('Is my favorite type of music Reggae?');
 let lowerCaseMusic = favoriteMusic.toLowerCase();
@@ -33,6 +36,7 @@ if (lowerCaseMusic === 'yes' || lowerCaseMusic === 'y') {
 } else {
   alert('BOOOO, wrong!');
 }
+console.log('Answer to favorite music', lowerCaseMusic);
 
 let dominantHand = prompt('Am and right handed?');
 let lowerCaseHand = dominantHand.toLowerCase();
@@ -41,6 +45,7 @@ if (lowerCaseHand === 'no' || lowerCaseHand === 'n') {
 } else {
   alert('BOOOO, wrong!');
 }
+console.log('Answer to dominant hand', lowerCaseHand);
 
 alert('Ok, enough questions about me. Lets play a number guessing game!');
 
