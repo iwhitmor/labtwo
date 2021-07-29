@@ -6,7 +6,6 @@ header {
     text-align: center;
     background-color: rgb(129, 129, 129);
     font-family: 'Roboto', sans-serif;
-    /* border-radius: 25px; */
     padding: 10px;
     color: lightgray;
     text-shadow: rgb(8, 8, 8) 1px 0 10px; 
@@ -24,6 +23,7 @@ nav {
     text-align: center;
     text-decoration: none;
     background: lightgray;
+    background-position: 0;
     border-radius: 10px;
 }
 
@@ -39,7 +39,7 @@ main {
 }
 
 img {
-    height: 400px;
+    height: 350px;
     width: auto;
     padding: 25px;
     filter: drop-shadow(0 0 .75rem black);
