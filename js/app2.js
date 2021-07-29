@@ -15,8 +15,9 @@ if (lowerCaseFood === 'no' || lowerCaseFood === 'n') {
   alert('DING DING DING, correct!');
 } else {
   alert('BOOOO, wrong!');
+// eslint-disable-next-line no-trailing-spaces
 } 
-console.log('Answer to favorite food', lowerCaseFood)
+console.log('Answer to favorite food', lowerCaseFood);
 
 let stateBorn = prompt('Was I born in New York State?');
 let lowerCaseBorn = stateBorn.toLowerCase();
