@@ -13,3 +13,7 @@ I made this About Me page so you can take a quiz and learn more....About Me! I a
 ### Reflections and Comments
 
 * Used basic HTML, CSS, and JS to create this page
+
+---
+permalink: /index.html
+---
