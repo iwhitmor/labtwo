@@ -110,3 +110,7 @@ alert('You answered ' + correctAnswer +'');
 
 
 
+function questionOne(){
+
+  // Put in previous questions in function
+}
