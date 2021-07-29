@@ -5,9 +5,11 @@
 header {
     text-align: center;
     background-color: rgb(129, 129, 129);
-    margin-bottom: 25px;
     font-family: 'Roboto', sans-serif;
-    border-radius: 25px;
+    /* border-radius: 25px; */
+    padding: 10px;
+    color: lightgray;
+    text-shadow: rgb(8, 8, 8) 1px 0 10px; 
 }
 
 h1 {
@@ -18,9 +20,15 @@ h1 {
 
 nav {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
+    border-top: lightgray solid;
+    border-bottom: lightgray solid;
+    border-right: lightgray solid;
+    border-left: lightgray solid;
+    background: lightgray;
+    border-radius: 10px;
 }
 
 ul li {
@@ -30,7 +38,6 @@ ul li {
 
 main {
     background-color: lightgray;
-    border-radius: 25px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -39,14 +46,15 @@ img {
     height: 400px;
     width: auto;
     padding: 25px;
+    filter: drop-shadow(0 0 .75rem black);
 }
 
 .education {
-    padding: 25px;
+    padding: 10px;
 }
 
 .jobhistory {
-    padding: 25px;
+    padding: 10px;
 }
 
 .quiz {
@@ -69,12 +77,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: rgb(129, 129, 129);
-    border-radius: 25px;
     font-family: 'Roboto', sans-serif;
-    margin-top: 25px;
-}
-
-footer a {
-    font-size: 12px;
-    padding: 50px;
+    text-shadow: rgb(8, 8, 8) 1px 0 10px;
+    color: lightgray;
 }
