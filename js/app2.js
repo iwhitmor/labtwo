@@ -1,54 +1,64 @@
 /* eslint-disable no-trailing-spaces */
 'use strict';
 console.log('app2.js file is connected');
-
-let favoriteSport = prompt('Is my favorite sport golf?');
-let lowerCaseSport = favoriteSport.toLowerCase();
-if (lowerCaseSport === 'yes' || lowerCaseSport === 'y') {
-  alert('DING DING DING, correct!');
-} else {
-  alert('BOOOO, wrong!');
+function questionOne(){
+  let favoriteSport = prompt('Is my favorite sport golf?');
+  let lowerCaseSport = favoriteSport.toLowerCase();
+  if (lowerCaseSport === 'yes' || lowerCaseSport === 'y') {
+    alert('DING DING DING, correct!');
+  } else {
+    alert('BOOOO, wrong!');
+  }
+  console.log('Answer to favorite sport', lowerCaseSport);
 }
-console.log('Answer to favorite sport', lowerCaseSport);
-
-let favoriteFood = prompt('Is my favorite food tuna fish in a can?');
-let lowerCaseFood = favoriteFood.toLowerCase();
-if (lowerCaseFood === 'no' || lowerCaseFood === 'n') {
-  alert('DING DING DING, correct!');
-} else {
-  alert('BOOOO, wrong!');
+questionOne();
+function questiontwo(){
+  let favoriteFood = prompt('Is my favorite food tuna fish in a can?');
+  let lowerCaseFood = favoriteFood.toLowerCase();
+  if (lowerCaseFood === 'no' || lowerCaseFood === 'n') {
+    alert('DING DING DING, correct!');
+  } else {
+    alert('BOOOO, wrong!');
+  }
+  console.log('Answer to favorite food', lowerCaseFood);
 }
-console.log('Answer to favorite food', lowerCaseFood);
-
-let stateBorn = prompt('Was I born in New York State?');
-let lowerCaseBorn = stateBorn.toLowerCase();
-if (lowerCaseBorn === 'yes' || lowerCaseBorn === 'y') {
-  alert('DING DING DING, correct!');
-} else {
-  alert('BOOOO, wrong!');
+questiontwo();
+function questionThree(){  
+  let stateBorn = prompt('Was I born in New York State?');
+  let lowerCaseBorn = stateBorn.toLowerCase();
+  if (lowerCaseBorn === 'yes' || lowerCaseBorn === 'y') {
+    alert('DING DING DING, correct!');
+  } else {
+    alert('BOOOO, wrong!');
+  }
+  console.log('Answer to state born', lowerCaseBorn);
 }
-console.log('Answer to state born', lowerCaseBorn);
-
-let favoriteMusic = prompt('Is my favorite type of music Reggae?');
-let lowerCaseMusic = favoriteMusic.toLowerCase();
-if (lowerCaseMusic === 'yes' || lowerCaseMusic === 'y') {
-  alert('DING DING DING, correct!');
-} else {
-  alert('BOOOO, wrong!');
+questionThree();
+function questionFour(){
+  let favoriteMusic = prompt('Is my favorite type of music Reggae?');
+  let lowerCaseMusic = favoriteMusic.toLowerCase();
+  if (lowerCaseMusic === 'yes' || lowerCaseMusic === 'y') {
+    alert('DING DING DING, correct!');
+  } else {
+    alert('BOOOO, wrong!');
+  }
+  console.log('Answer to favorite music', lowerCaseMusic);
 }
-console.log('Answer to favorite music', lowerCaseMusic);
-
-let dominantHand = prompt('Am and right handed?');
-let lowerCaseHand = dominantHand.toLowerCase();
-if (lowerCaseHand === 'no' || lowerCaseHand === 'n') {
-  alert('DING DING DING, correct!');
-} else {
-  alert('BOOOO, wrong!');
+questionFour();
+function questionFive(){
+  let dominantHand = prompt('Am and right handed?');
+  let lowerCaseHand = dominantHand.toLowerCase();
+  if (lowerCaseHand === 'no' || lowerCaseHand === 'n') {
+    alert('DING DING DING, correct!');
+  } else {
+    alert('BOOOO, wrong!');
+  }
+  console.log('Answer to dominant hand', lowerCaseHand);
 }
-console.log('Answer to dominant hand', lowerCaseHand);
+questionFive();
 
 alert('Ok, enough questions about me. Lets play a number guessing game!');
-
+function questionSix(){
 let attempts = 6;
 let actualNumber = 11;
 
@@ -76,7 +86,8 @@ while (attempts > 0) {
 }
 
 alert('Your all done. The correct answer was 11');
-
+}
+questionSix();
 //create an array
 
 let states = ['New York', 'Texas', 'California', 'Iowa'];
