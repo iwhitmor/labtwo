@@ -77,3 +77,24 @@ footer {
     text-shadow: rgb(8, 8, 8) 1px 0 10px;
     color: lightgray;
 }
+
+#leftbox {
+    float: left; 
+    background: rgb(129, 129, 129);
+    width:25%;
+    height:280px;
+}
+
+#middlebox{
+    float: left; 
+    background: rgb(129, 129, 129);
+    width:50%;
+    height:280px;
+}
+
+#rightbox{
+    float: right;
+    background: rgb(129, 129, 129);
+    width:25%;
+    height:280px;
+}
